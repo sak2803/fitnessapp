@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import Abs from '../assets/images/abs.jpg';
 import Chest from '../assets/images/chest.jpg';
 import Back from '../assets/images/back.jpg';
+import Bicep from '../assets/images/bicep.jpg';
+
 
 import './Home.css';
 
@@ -24,18 +26,42 @@ const Home = () => {
               </Link>
             </Box>
             <Box className='exerciseCard'>
-             <Link>
-                <img src={Chest} alt='chest' className='exerciseTypeDisplayImg'/>
+             <Link to='./Biceps'>
+                <img src={Bicep} alt='bicep' className='exerciseTypeDisplayImg'/>
                 <Typography>
-                 Chest
+                 Biceps
                 </Typography>
               </Link>
             </Box>
             <Box className='exerciseCard'>
-             <Link>
+             <Link to='./Calves'>
                 <img src={Back} alt='back' className='exerciseTypeDisplayImg'/>
                 <Typography>
-                  Back
+                  Calves
+                </Typography>
+              </Link>
+            </Box>
+            <Box className='exerciseCard'>
+             <Link to='./Forearms'>
+                <img src={Back} alt='back' className='exerciseTypeDisplayImg'/>
+                <Typography>
+                  Forearms
+                </Typography>
+              </Link>
+            </Box>
+            <Box className='exerciseCard'>
+             <Link to='./UpperBack'>
+                <img src={Back} alt='back' className='exerciseTypeDisplayImg'/>
+                <Typography>
+                  Upper Back
+                </Typography>
+              </Link>
+            </Box>
+            <Box className='exerciseCard'>
+             <Link to='./Cardio'>
+                <img src={Back} alt='back' className='exerciseTypeDisplayImg'/>
+                <Typography>
+                  Cardio
                 </Typography>
               </Link>
             </Box>

@@ -5,12 +5,12 @@ import Box from '@mui/material/Box';
 import ExerciseCard from '../components/ExerciseCard';
 import './excercisePages.css';
 
-const Abs = () => {
+const Forearms = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
     const fetchExerciseData = async () => {
-      const data = await fetchData('https://exercisedb.p.rapidapi.com/exercises/target/abs', options);
+      const data = await fetchData('https://exercisedb.p.rapidapi.com/exercises/target/forearms', options);
         setData(data);
     };
 
@@ -20,11 +20,11 @@ const Abs = () => {
 
   return (
     <Box>
-      <h1 className='excerciseName'>Abs Exercises</h1>
+      <h1 className='excerciseName'>Forearms Exercises</h1>
     <ExerciseCard exercise={data} />
     </Box>
     
   )
 }
 
-export default Abs
+export default Forearms

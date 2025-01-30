@@ -1,0 +1,35 @@
+.cardContainer{
+    display: flex;
+    gap:50px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exerciseCard{
+    background-color: rgb(0, 0, 0);
+    width: 220px;
+    margin: 0px auto;
+    border-radius: 0 0 5% 5%;
+    height:320px;
+    position: relative;
+}
+
+.exerciseGif{
+    width:220px;
+}
+
+.exerciseName{
+    color: white;
+    font-size:23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+.exerciseEquipment{
+    color: rgb(255, 0, 234);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
