@@ -1,37 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
 :root{
     background-color: rgba(7, 6, 6, 0.87);
 }
+
+.pageTitle{
+    color: white;
+    text-align: center;
+    font-family:'Poppins';
+    font-size: 30px;
+}
+
 .displayDiv{
-    background-color: rgb(15, 15, 15);
+    background-color: rgba(0, 0, 0, 0.548);
     display: flex;
+    flex-wrap: wrap;
     height:auto;
-    padding: 20px 10px 10px 10px;
-    margin: 50px;
+    padding: 40px;
+    margin: -10px 50px 50px 50px;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
     width: auto;
     border-radius: 10px;
 }
 
-.exerciseCard{
-    width: 220px;
+.HomeCard{
     justify-content: center;
     text-align: center;
-    margin: 10px auto;
+    margin:0px auto 10px auto;
+    border: 1px solid rgba(255, 255, 255, 0.144);
+    border-radius: 0 0 10px 10px;
 }
 
 .exerciseTypeDisplayImg{
     height: 200px;
     padding: 20px 0px 0 0px;
-    margin: auto;
+    margin: -20px auto auto auto;
 }
 
-/* Media query for small screens */
+.exerciseTypeDisplayText{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins';
+    
+}
+
+/* Media query for small screens 
 @media (max-width: 600px) {
     .displayDiv {
         flex-direction: column;
         height: auto;
-        padding: 10px 5px 5px 5px;
+        padding: 20px 5px 5px 5px;
         margin: 50px;
     }
 }
+    */

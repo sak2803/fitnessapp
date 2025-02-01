@@ -26,7 +26,7 @@ const ExerciseCard = ({ exercise }) => {
           <Typography className='exerciseEquipment'>
             {capitalizeFirstLetters(exercise.equipment)}
           </Typography>
-          <Typography style={{ color: 'white', fontSize: '12px' }}>
+          <Typography className='exerciseTarget'>
             Target - {capitalizeFirstLetters(exercise.target)}
           </Typography>
         </Box>
