@@ -12,6 +12,9 @@ import Calves from '../assets/images/calves.jpg';
 import Forearms from '../assets/images/forearm.jpg';
 import UpperBack from '../assets/images/upperback.jpg';
 import Cardio from '../assets/images/cardio.jpg';
+import Lats from '../assets/images/lats.jpg';
+import Tricep from '../assets/images/tricep.jpg';
+import Quads from '../assets/images/quads.jpg';
 
 import './Home.css';
 
@@ -21,6 +24,14 @@ const Home = () => {
     <Box style={{margin:'-10px'}}>
         <h2 className='pageTitle'>Exercises</h2>
         <div direction='row' className='displayDiv'>
+            <Box className='HomeCard'>
+             <Link to='./Cardio'>
+                <img src={Cardio} alt='cardio' className='exerciseTypeDisplayImg'/>
+                <Typography className='exerciseTypeDisplayText'>
+                  Cardio
+                </Typography>
+              </Link>
+            </Box>
             <Box className='HomeCard'>
              <Link to='./abs'>
                 <img src={Abs} alt='abs' className='exerciseTypeDisplayImg'/>
@@ -38,10 +49,10 @@ const Home = () => {
               </Link>
             </Box>
             <Box className='HomeCard'>
-             <Link to='./Calves'>
-                <img src={Calves} alt='calves' className='exerciseTypeDisplayImg'/>
+             <Link to='./Tricep'>
+                <img src={Tricep} alt='tricep' className='exerciseTypeDisplayImg'/>
                 <Typography className='exerciseTypeDisplayText'>
-                  Calves
+                  Tricep
                 </Typography>
               </Link>
             </Box>
@@ -54,6 +65,22 @@ const Home = () => {
               </Link>
             </Box>
             <Box className='HomeCard'>
+             <Link to='./Quads'>
+                <img src={Quads} alt='quads' className='exerciseTypeDisplayImg'/>
+                <Typography className='exerciseTypeDisplayText'>
+                  Quads
+                </Typography>
+              </Link>
+            </Box>
+            <Box className='HomeCard'>
+             <Link to='./Calves'>
+                <img src={Calves} alt='calves' className='exerciseTypeDisplayImg'/>
+                <Typography className='exerciseTypeDisplayText'>
+                  Calves
+                </Typography>
+              </Link>
+            </Box>
+            <Box className='HomeCard'>
              <Link to='./UpperBack'>
                 <img src={UpperBack} alt='upperback' className='exerciseTypeDisplayImg'/>
                 <Typography className='exerciseTypeDisplayText'>
@@ -62,10 +89,10 @@ const Home = () => {
               </Link>
             </Box>
             <Box className='HomeCard'>
-             <Link to='./Cardio'>
-                <img src={Cardio} alt='cardio' className='exerciseTypeDisplayImg'/>
+             <Link to='./Lats'>
+                <img src={Lats} alt='lats' className='exerciseTypeDisplayImg'/>
                 <Typography className='exerciseTypeDisplayText'>
-                  Cardio
+                  Lats
                 </Typography>
               </Link>
             </Box>

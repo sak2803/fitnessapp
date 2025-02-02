@@ -12,7 +12,7 @@ const ExerciseCard = ({ exercise }) => {
   //console.log('ExerciseCard received exercise:', exercise); // Log the exercise object
 
   if (!exercise) {
-    return <div>No exercise data</div>; // Handle case where exercise is undefined or null
+    return <div style={{color:'white',textAlign:'center'}}>loading...</div>; // Handle case where exercise is undefined or null
   }
 
   return (
