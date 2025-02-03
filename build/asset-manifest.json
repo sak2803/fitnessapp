@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15703352.css",
+    "main.js": "/static/js/main.00bb36f5.js",
+    "static/media/abs.jpg": "/static/media/abs.9bcd60b55fe1ddbc0ed4.jpg",
+    "static/media/bicep.jpg": "/static/media/bicep.a2b87e656a92228d07c1.jpg",
+    "static/media/quads.jpg": "/static/media/quads.b36e735ebfb450db8b40.jpg",
+    "static/media/chest.jpg": "/static/media/chest.05022de1e82c5368460c.jpg",
+    "static/media/back.jpg": "/static/media/back.a7243a4dc10344a0f3d3.jpg",
+    "static/media/upperback.jpg": "/static/media/upperback.fa7149fb206b18e6e268.jpg",
+    "static/media/tricep.jpg": "/static/media/tricep.6c39b71bbe4af3b6c4de.jpg",
+    "static/media/cardio.jpg": "/static/media/cardio.dbca1baa9a03489035af.jpg",
+    "static/media/calves.jpg": "/static/media/calves.505dd8559f32951efd5a.jpg",
+    "static/media/lats.jpg": "/static/media/lats.ac99fd86cbd8df7b3537.jpg",
+    "static/media/forearm.jpg": "/static/media/forearm.d7365119de0e816fe98c.jpg",
+    "index.html": "/index.html",
+    "main.15703352.css.map": "/static/css/main.15703352.css.map",
+    "main.00bb36f5.js.map": "/static/js/main.00bb36f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15703352.css",
+    "static/js/main.00bb36f5.js"
+  ]
+}
